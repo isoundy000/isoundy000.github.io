@@ -1,16 +1,1 @@
-{
-    "debugMode"     : 1,
-    "frameRate"     : 25,
-    "id"            : "gameCanvas",
-    "renderMode"    : 1,
-    "engineDir"     : "frameworks/cocos2d-js-v3.3.js",
-    "jsList"        : [
-        "src/lib/async.js",
-        "src/lib/UILoader.js",
-        "src/lib/Guide.js",
-        "src/resource.js",
-        "src/guideConfig.js",
-        "src/ui/MainScreen.js"
-
-    ]
-}
+{"showFPS": false, "frameRate": 60, "project_type": "javascript", "debugMode": 0, "renderMode": 0, "id": "gameCanvas"}

@@ -1,70 +1,27 @@
-
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
-    <title>Hello Cocos2d-JS</title>
-    <script type="text/javascript" src="frameworks/cocos2d-js-v3.3.full.js" charset="UTF-8"></script>
-    <script>
-        /**
-         * 重置引导，刷新浏览器
-         */
-        function resetGuide() {
-            var localStorage = localStorage || cc.sys.localStorage;
-            localStorage.setItem(sz.GuideIndexName, 0);
-            document.location.reload();
-        }
-    </script>
-
+    <meta charset="utf-8">
+    <title>哎哟大湿兄</title>
+    <link rel="icon" type="image/GIF" href="res/favicon.ico"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
     <style>
-        .div-a{ float:left;width:40%;}
-        .div-b{ float:left;width:59%;}
-
-        p{
-            font-size: 1.5em;
+        body, canvas, div {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            -khtml-user-select: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         }
     </style>
-
-
 </head>
-<body>
+<body style="padding:0; margin: 0; background: #000;">
+<canvas id="gameCanvas" width="450" height="800"></canvas>
 
-
-
-<p>
-    sz.Guide是基于 cocos2d-js 实现的一个简易的新手引导框架，使用json配置文件就能方便编写游戏引导。
-    <a href="https://github.com/ShawnZhang2015/Guide">sz.Guide库githut源码地址</a>
-</p>
-
-<div class="div-a">
-    <canvas id="gameCanvas" width="480" height="640"></canvas>
-
-</div>
-
-<div class="div-b">
-
-    <div>
-
-        <textarea id = "text" cols="80" rows="30"></textarea>
-        <p><button onclick="editConfig()">修改并重置引导</button></p>
-    </div>
-</div>
-
-
-<script type="text/javascript", src="main.js"></script>
-
-<script>
-    function editConfig() {
-        var configStr = document.getElementById('text').value;
-        try {
-            guideConfig = JSON.parse(configStr);
-            resetGuie();
-        } catch (e) {
-            alert('配置有问题！' + JSON.stringify(e));
-        }
-
-    }
-</script>
-
+<script src="game.min.js"></script>
 </body>
-
 </html>
