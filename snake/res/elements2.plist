@@ -9,26 +9,26 @@
                 <key>frame</key>
                 <string>{{837,515},{191,67}}</string>
                 <key>offset</key>
-                <string>{0,-2}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{1,6},{191,67}}</string>
+                <string>{{0,0},{191,67}}</string>
                 <key>sourceSize</key>
-                <string>{193,75}</string>
+                <string>{191,67}</string>
             </dict>
             <key>backSelected.png</key>
             <dict>
                 <key>frame</key>
                 <string>{{644,515},{191,67}}</string>
                 <key>offset</key>
-                <string>{0,-2}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{1,6},{191,67}}</string>
+                <string>{{0,0},{191,67}}</string>
                 <key>sourceSize</key>
-                <string>{193,75}</string>
+                <string>{191,67}</string>
             </dict>
             <key>grayLayer.png</key>
             <dict>
@@ -48,13 +48,13 @@
                 <key>frame</key>
                 <string>{{2,964},{58,87}}</string>
                 <key>offset</key>
-                <string>{-3,0}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{4,0},{58,87}}</string>
+                <string>{{0,0},{58,87}}</string>
                 <key>sourceSize</key>
-                <string>{72,87}</string>
+                <string>{58,87}</string>
             </dict>
             <key>num2.png</key>
             <dict>
@@ -100,13 +100,13 @@
                 <key>frame</key>
                 <string>{{644,2},{511,286}}</string>
                 <key>offset</key>
-                <string>{0,-1}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{5,2},{511,286}}</string>
+                <string>{{0,0},{511,286}}</string>
                 <key>sourceSize</key>
-                <string>{521,288}</string>
+                <string>{511,286}</string>
             </dict>
             <key>shareNormal.png</key>
             <dict>
@@ -117,9 +117,9 @@
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{1,4},{191,67}}</string>
+                <string>{{0,0},{191,67}}</string>
                 <key>sourceSize</key>
-                <string>{193,75}</string>
+                <string>{191,67}</string>
             </dict>
             <key>shareSelected.png</key>
             <dict>
@@ -130,22 +130,22 @@
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{1,4},{191,67}}</string>
+                <string>{{0,0},{191,67}}</string>
                 <key>sourceSize</key>
-                <string>{193,75}</string>
+                <string>{191,67}</string>
             </dict>
             <key>start.png</key>
             <dict>
                 <key>frame</key>
                 <string>{{644,584},{406,60}}</string>
                 <key>offset</key>
-                <string>{0,1}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{4,0},{406,60}}</string>
+                <string>{{0,0},{406,60}}</string>
                 <key>sourceSize</key>
-                <string>{414,62}</string>
+                <string>{406,60}</string>
             </dict>
         </dict>
         <key>metadata</key>
@@ -155,9 +155,7 @@
             <key>realTextureFileName</key>
             <string>elements2.png</string>
             <key>size</key>
-            <string>{1024,1024}</string>
-            <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:539233620e4ffc39dc926ac08ad6b2e6$</string>
+            <string>{1021,1024}</string>
             <key>textureFileName</key>
             <string>elements2.png</string>
         </dict>
