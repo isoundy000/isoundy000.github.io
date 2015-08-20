@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>关于MyAppStore</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="我的AppStore"/>
+<meta name="description" content=""/>
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<!-- play -->
+<div class="swiper-container swiper-container-vertical">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide page0">
+			<img class="imgWidth" src="images/1.jpg">
+			<span class="upImg"><img src="images/up.png"></span>
+		</div>
+		<div class="swiper-slide page1">
+			<img class="imgWidth" src="images/2.jpg">
+			<span class="upImg"><img src="images/up.png"></span>
+			<div class="appdownload">
+				<img class="appdownloadImgWidth" src="images/portalErwei.png">
+				<div class="appsDown">
+					<div class="appsDownL">
+						<div class="uaApp"> <a class="ua" title="客户端下载" href="itms-services://?action=download-manifest&url=https://192.168.1.17:444/AppStore/e-RoadWiFi.plist"><img src="images/portaliOS.png"></a></div>
+					</div>
+					<div class="appsDownR">
+						<div class="uaApp"> <a class="ua" title="客户端下载" href="/AppStore/web/16wifi.apk"><img src="images/portalAnd.png"></a></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-slide page2">
+			<img class="imgWidth" src="images/3.jpg">
+			<span class="upImg"><img src="images/up.png"></span>
+		</div>
+		<div class="swiper-slide page3">
+			<img class="imgWidth" src="images/6.jpg">
+			<span class="upImg"><img src="images/up.png"></span>
+		</div>
+		<div class="swiper-slide page4">
+			<img  class="imgWidth"src="images/7.jpg">
+			<div class="weixinImg2">
+				<img class="imgWidth" src="images/weixin.png">
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/swiper.min.js"></script>
+<script>
+//滚屏
+var swiper = new Swiper('.swiper-container', {
+	pagination: '.swiper-pagination',
+	paginationClickable: true,
+	direction: 'vertical'
+});
+</script>
+</body>
+</html>

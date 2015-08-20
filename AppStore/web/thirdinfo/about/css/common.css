@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* 
+	作者：leo
+	日期：2014-4-28
+	版本：2.0
+*/
+/*重置css*/
+* { font-family: "微软雅黑"; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { background: transparent; border: 0; margin: 0; padding: 0; vertical-align: baseline; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+ol, ul { list-style: none; }
+blockquote { quotes: none; }
+blockquote:before, blockquote:after { content: ''; content: none; }
+del { text-decoration: line-through; }
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+a img { border: none; outline: none; }
+a, a:link, a:visited { text-decoration: none; }
+/*整站字体*/
+body { font-family: "微软雅黑"; font-size: 14px; font-weight: normal; color: #333; background: #f5f5f5; }
+.title { font-size: 20px; font-family: "微软雅黑"; color: #fff; }
+/*对齐*/
+.floatL { float: left; }
+.floatR { float: right; }
+/*间距*/
+.mt5 { margin-top: 5px; }
+.mr10 { margin-right: 10px; }
+.ml10 { margin-left: 10px; }
+.clearfix { clear: both; }
+.mask { display: none; position: fixed; width: 100%; height: 100%; z-index: 100; top: 0; left: 0; opacity: 0; }
+/* 框架 */
+.wrapper { max-width: 420px; width: 100%; margin: 0 auto; overflow: hidden; background: #F0F0F0; }
+/*头部*/
+.headWrap { background: #20b4f1; width: 100%; height: 48px; line-height: 48px; max-width: 420px; margin: 0 auto; position: relative; border-bottom: 1px solid #18a4ed; z-index: 1; }
+.headWrap a.colorBack { width: 60px; height: 49px; display: inline-block; }
+.headWrap a.colorBack:active { width: 60px; height: 49px; display: inline-block; background: #63cbf5; }
+.headWrap h1 { position: absolute; z-index: -1; width: 100%; text-align: center; top: 0; }
+/*logo*/
+.logoGrid { height: 24px; margin-top: 12px; margin-left: 24px; }
+.logoGrid2 { height: 35px; margin-right: 9px; font-size: 18px; color: #fff; }
+/*页脚*/
+.footer { position: absolute; width: 100%; bottom: 0; left: 0; margin-top: 100px;}
+.footer h2 { font-size: 20px; text-align: center; }
+.footer p { text-align: center; padding: 0; color: #808080; font-size: 14px; line-height: 24px; font-family: "微软雅黑"; }
