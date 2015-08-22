@@ -52,7 +52,7 @@ $(document).ready(function(){
 				$(".wrapper").css("display","none");
 			});
 		}else{
-			$(".ua").attr( "href","itms-services://?action=download-manifest&url=https://192.168.1.17:444/AppStore/e-RoadWiFi.plist" );
+			$(".ua").attr( "href","itms-services://?action=download-manifest&url=https://ssl.pre.im/app/plist/4b96b09eaf1185c0dd6a5ca75198c682" );
 		}
 	}
 	if(Android){
@@ -65,7 +65,7 @@ $(document).ready(function(){
 				$(".wrapper").css("display","none");
 			});
 		}else{
-			$(".ua").attr( "href","/AppStore/16wifi.apk" );
+			$(".ua").attr( "href","/AppStore/TexasHoldem-debug.apk" );
 		}
 	}
 	if(pc){
@@ -74,10 +74,10 @@ $(document).ready(function(){
 		$(".uaAppTxt").remove();
 		$(".uaApp").addClass("AndPic");
 		$(".uaApp").removeClass("iOSPic,iOSPicM");
-		$(".ua").attr("href","/AppStore/16wifi.apk" );
+		$(".ua").attr("href","/AppStore/TexasHoldem-debug.apk" );
 		$(".uaAppN").addClass("iOSPic");
 		$(".uaAppN").removeClass("AndPic,iOSPicM");
-		$(".uaN").attr("href","itms-services://?action=download-manifest&url=https://192.168.1.17:444/AppStore/e-RoadWiFi.plist" );
+		$(".uaN").attr("href","itms-services://?action=download-manifest&url=https://ssl.pre.im/app/plist/4b96b09eaf1185c0dd6a5ca75198c682" );
 	}
 });
 
