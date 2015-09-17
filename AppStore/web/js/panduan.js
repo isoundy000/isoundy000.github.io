@@ -52,7 +52,7 @@ $(document).ready(function(){
 				$(".wrapper").css("display","none");
 			});
 		}else{
-			$(".ua").attr( "href","itms-services://?action=download-manifest&url=https://ssl.pre.im/app/plist/a3696a368951b3d5e13df7ef2b637c8f" );
+			$(".ua").attr( "href","itms-services://?action=download-manifest&url=https://ssl.pre.im/app/plist/dd967399c7ed03dc30fc972d02b1e1f4" );
 		}
 	}
 	if(Android){
@@ -77,7 +77,7 @@ $(document).ready(function(){
 		$(".ua").attr("href","/AppStore/TexasHoldem-debug.apk" );
 		$(".uaAppN").addClass("iOSPic");
 		$(".uaAppN").removeClass("AndPic,iOSPicM");
-		$(".uaN").attr("href","itms-services://?action=download-manifest&url=https://ssl.pre.im/app/plist/a3696a368951b3d5e13df7ef2b637c8f" );
+		$(".uaN").attr("href","itms-services://?action=download-manifest&url=https://ssl.pre.im/app/plist/dd967399c7ed03dc30fc972d02b1e1f4" );
 	}
 });
 
